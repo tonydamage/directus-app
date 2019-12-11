@@ -4,6 +4,7 @@
     element="div"
     class="interface-checkboxes"
     :class="{ cols: !options.single }"
+    :disabled="readonly"
   >
     <div v-for="(choice, index) in choices" :key="choice.id" class="choice">
       <v-icon v-if="options.draggable" class="drag-handle" name="drag_indicator" />
@@ -70,7 +71,7 @@ export default {
   },
   methods: {
     initChoices() {
-      const optionChoices = _.clone(this.options.choices);
+      const optionChoices = _.clone(this.options.choices || []);
       const initialValues = this.value ? this.value : [];
       let choices = initialValues
         .filter(key => key) // filter out empty strings

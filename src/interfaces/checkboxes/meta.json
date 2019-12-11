@@ -14,11 +14,13 @@
         "keyInterface": "text-input",
         "keyType": "string",
         "keyOptions": {
+          "placeholder": "key",
           "monospace": true
         },
         "valueInterface": "text-input",
         "valueType": "string",
         "valueOptions": {
+          "placeholder": "value",
           "monospace": true
         }
       }
