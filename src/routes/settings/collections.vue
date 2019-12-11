@@ -25,7 +25,7 @@
           <div class="cell icon type-table-head">
             <v-icon name="box" size="24" color="input-icon-color" />
           </div>
-          <div class="cell type-table-head">{{ $t("collection") }}</div>
+          <div class="cell type-table-head">{{ $tc("collection", 2) }}</div>
           <div class="cell note type-table-head">{{ $t("note") }}</div>
         </div>
       </div>

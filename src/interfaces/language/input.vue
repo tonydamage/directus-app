@@ -1,6 +1,6 @@
 <template>
   <v-simple-select
-    :placeholder="$t('interfaces-language-select_language')"
+    :placeholder="$t('interfaces.language.select_language')"
     :value="value"
     :disabled="readonly"
     @input="$emit('input', $event)"

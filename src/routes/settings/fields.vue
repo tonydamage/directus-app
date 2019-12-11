@@ -29,14 +29,14 @@
       </template>
     </v-header>
 
-    <label class="type-label">{{ $t("fields") }}</label>
+    <label class="type-label">{{ $tc("field", 2) }}</label>
     <v-notice color="warning" icon="warning">{{ $t("fields_are_saved_instantly") }}</v-notice>
     <div class="table">
       <div class="header">
         <div class="row">
           <div class="drag"><v-icon name="swap_vert" /></div>
-          <div>{{ $t("field") }}</div>
-          <div>{{ $t("interface") }}</div>
+          <div>{{ $tc("field", 1) }}</div>
+          <div>{{ $tc("interface", 1) }}</div>
         </div>
       </div>
       <div class="body" :class="{ dragging }">
