@@ -11,34 +11,21 @@
     "choices": {
       "name": "$t:choices",
       "comment": "$t:choices_comment",
-      "interface": "repeater",
+      "interface": "key-value",
       "type": "JSON",
       "options": {
-        "dataType": "value",
-        "fields": [
-          {
-            "field": "name",
-            "interface": "text-input",
-            "type": "String",
-            "preview": true
-          },
-          {
-            "field": "value",
-            "interface": "text-input",
-            "type": "String",
-            "index": true
-          }
-        ]
-      },
-      "default": {
-        "value1": "$t:option 1",
-        "value2": "$t:option 2",
-        "value3": "$t:option 3",
-        "value4": "$t:option 4",
-        "value5": "$t:option 5",
-        "value6": "$t:option 6",
-        "value7": "$t:option 7",
-        "value8": "$t:option 8"
+        "keyInterface": "text-input",
+        "keyType": "string",
+        "keyOptions": {
+          "placeholder": "key",
+          "monospace": true
+        },
+        "valueInterface": "text-input",
+        "valueType": "string",
+        "valueOptions": {
+          "placeholder": "value",
+          "monospace": true
+        }
       }
     },
     "format": {
