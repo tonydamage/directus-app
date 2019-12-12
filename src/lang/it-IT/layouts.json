@@ -1,40 +1,40 @@
 {
   "layouts": {
     "calendar": {
-      "calendar": "Calendar",
+      "calendar": "Calendario",
       "fields": "campi",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
+      "today": "oggi",
+      "events": "Eventi",
+      "moreEvents": "e altri {amount}...",
+      "noEvents": "nessun evento!",
       "date": "Date",
       "datetime": "Datetime",
       "time": "Time",
-      "title": "Title",
+      "title": "Titolo",
       "color": "Color"
     },
     "cards": {
-      "cards": "Cards",
-      "title": "Title",
-      "subtitle": "Subtitle",
-      "src": "Image Source",
-      "content": "Body Content",
-      "fit": "Fit"
+      "cards": "Schede",
+      "title": "Titolo",
+      "subtitle": "Sottotitolo",
+      "src": "Origine immagine",
+      "content": "Contenuto del body",
+      "fit": "Adatta"
     },
     "tabular": {
-      "tabular": "Table",
+      "tabular": "Tabella",
       "fields": "campi"
     },
     "timeline": {
       "timeline": "Timeline",
       "fields": "campi",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
+      "today": "oggi",
+      "events": "Eventi",
+      "moreEvents": "e altri {amount}...",
+      "noEvents": "nessun evento!",
       "date": "Date",
-      "content": "Content",
-      "title": "Title",
+      "content": "Contenuto",
+      "title": "Titolo",
       "color": "Color"
     }
   }

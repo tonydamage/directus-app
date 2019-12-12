@@ -68,7 +68,7 @@
       "comment": "コメント"
     },
     "directus_files": {
-      "title": "Title",
+      "title": "標題",
       "tags": "Tags",
       "location": "Location",
       "description": "説明",
@@ -93,7 +93,7 @@
       "password": "パスワード",
       "role": "Role",
       "company": "Company",
-      "title": "Title",
+      "title": "標題",
       "timezone": "Timezone",
       "locale": "Locale",
       "avatar": "Avatar",
