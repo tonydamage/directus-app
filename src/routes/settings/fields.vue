@@ -48,8 +48,8 @@
               :style="{ cursor: field.interface ? 'inherit' : 'default' }"
               @click.stop="field.interface ? startEditingField(field) : false"
             >
-              <div>
-                {{ $helpers.formatField(field.field, field.collection) }}
+              <div class="monospace">
+                {{ field.field }}
               </div>
               <div>
                 {{
@@ -697,6 +697,10 @@ h2 {
       &:hover {
         color: var(--input-border-color-hover);
       }
+    }
+
+    .monospace {
+      font-family: "Roboto Mono", monospace;
     }
   }
 }

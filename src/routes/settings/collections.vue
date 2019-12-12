@@ -39,7 +39,7 @@
           <div class="cell icon">
             <v-icon :name="collection.icon || 'box'" size="24" color="input-icon-color" />
           </div>
-          <div class="cell">{{ collection.name }}</div>
+          <div class="cell monospace">{{ collection.collection }}</div>
           <div class="cell note">{{ collection.note }}</div>
           <v-button
             v-if="collection.managed"
@@ -156,7 +156,6 @@ export default {
         .filter(collection => collection.collection.startsWith("directus_") === false)
         .map(collection => ({
           ...collection,
-          name: this.$helpers.formatCollection(collection.collection),
           __link__: `/${this.currentProjectKey}/settings/collections/${collection.collection}`
         }));
     },
@@ -662,6 +661,9 @@ export default {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+    &.monospace {
+      font-family: "Roboto Mono", monospace;
     }
   }
 
