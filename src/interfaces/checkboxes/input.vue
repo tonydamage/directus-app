@@ -3,7 +3,7 @@
     v-model="choices"
     element="div"
     class="interface-checkboxes"
-    :class="{ cols: !options.single }"
+    :class="{ subgrid: !options.single }"
     :disabled="readonly"
   >
     <div v-for="(choice, index) in choices" :key="choice.id" class="choice">
@@ -128,15 +128,9 @@ export default {
 
 <style lang="scss" scoped>
 .interface-checkboxes {
-  display: grid;
-  grid-gap: 12px;
   padding-top: calc(
     (var(--input-height) - 24px) / 2
   ); // [input height] - 24px (icon height) / 2 (top padding)
-}
-
-.cols {
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 }
 
 .drag-handle {
