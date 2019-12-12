@@ -1,41 +1,40 @@
 {
   "layouts": {
     "calendar": {
-      "calendar": "Calendar",
+      "calendar": "Calendrier",
       "fields": "Champs",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
+      "today": "aujourd'hui",
+      "events": "Evénements",
+      "moreEvents": "et {amount} plus...",
+      "noEvents": "pas encore d'événements positionnés",
       "date": "Date",
       "datetime": "Datetime",
-      "time": "Time",
-      "title": "Title",
-      "color": "Color"
+      "time": "Heure et minute",
+      "title": "Titre",
+      "color": "Couleur"
     },
     "cards": {
-      "cards": "Cards",
-      "title": "Title",
-      "subtitle": "Subtitle",
-      "src": "Image Source",
-      "content": "Body Content",
-      "fit": "Fit"
+      "cards": "Cartes",
+      "title": "Titre",
+      "subtitle": "Sous-titre",
+      "src": "Source d'image",
+      "content": "Contenu"
     },
     "tabular": {
       "tabular": "Table",
       "fields": "Champs"
     },
     "timeline": {
-      "timeline": "Timeline",
+      "timeline": "Calendrier",
       "fields": "Champs",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
+      "today": "aujourd'hui",
+      "events": "Evénements",
+      "moreEvents": "et {amount} plus...",
+      "noEvents": "pas encore d'événements positionnés",
       "date": "Date",
-      "content": "Content",
-      "title": "Title",
-      "color": "Color"
+      "content": "Contenu",
+      "title": "Titre",
+      "color": "Couleur"
     }
   }
 }
